@@ -1,0 +1,27 @@
+Loans
+Person name: olivia
+Amount loaned:4500
+Loans
+Person name: Rozz
+Amount loaned:5000
+Loans
+Person name: Winnie
+Amount loaned:500
+Loans
+Person name: olivia
+Amount loaned:600
+Loans
+Person name: olivia
+Amount loaned:700
+Loans
+Person name: Rozz
+Amount loaned:500
+Loans
+Person name: olivia
+Amount loaned:400
+Loans
+Person name: Rozz
+Amount loaned:3200
+Loans
+Person name: Rozz
+Amount loaned:2500

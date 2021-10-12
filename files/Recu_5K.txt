@@ -1,0 +1,19 @@
+Receipt
+Person name: Rozz
+surname:mayi
+Beneit:36000
+Personne n'ayant pas cotisé 
+Person name: meli 
+surname:mistelle
+Receipt
+Person name: Rozz
+surname:mayi
+Beneit:36000
+Receipt
+Person name: Rozz
+surname:mayi
+Beneit:36000
+Receipt
+Person name: Rozz
+surname:mayi
+Beneit:36000

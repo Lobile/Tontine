@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact us page</title>
+        <style>
+            * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.contact {
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background:  linear-gradient(to top, rgba(0, 0, 0, 0)50%, rgba(0, 0, 0, 0)50%), url(img/contact.svg);
+    background-size: cover;
+}
+
+.contact .content h2 {
+    font-size: 36px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.contact .content p {
+    font-weight: 300;
+    color: #fff;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    background: #fff;
+}
+
+.container .contactInfo {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.container .contactInfo .box {
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+}
+
+.container .contactInfo .box .icon {
+    min-width: 60px;
+    height: 60px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 22px;
+}
+
+.container .contactInfo .box .text {
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color: #fff;
+    flex-direction: column;
+    font-weight: 300;
+}
+
+.container .contactInfo .box .text {
+    font-weight: 500;
+    color:  black;
+}
+
+.contactForm {
+    width: 40%;
+    padding: 40px;
+   
+}
+
+.contactForm h2 {
+    font-size: 30px;
+    color: #333;
+    font-weight: 500;
+}
+
+.contactForm .inputBox {
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.contactForm .inputBox input,
+.contactForm .inputBox textarea {
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    border: none;
+    margin: 10px 0;
+    border-bottom: 2px solid #333;
+    outline: none;
+    resize: none;
+}
+
+.contactForm .inputBox span {
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: #666;
+}
+
+.contactForm .inputBox input:focus~span,
+.contactForm .inputBox input:valid~span,
+.contactForm .inputBox textarea:focus~span,
+.contactForm .inputBox textarea:valid~span {
+    color: #e91e63;
+    font-size: 12px;
+    transform: translateY(-20px);
+}
+
+.contactForm .inputBox input[type="submit"] {
+    width: 100px;
+    background: #31a876;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.img {
+    border-radius: 15%;
+}
+
+@media (max-width:991px) {
+    .contact {
+        padding: 50px;
+    }
+    .container {
+        flex-direction: column;
+    }
+    .container .contactInfo {
+        margin-bottom: 40px;
+    }
+    .container .contactInfo,
+    .contactForm {
+        width: 100%;
+    }
+}
+        </style>
+        <link rel="stylesheet"
+		href=
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script
+      src="https://kit.fontawesome.com/64d58efce2.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    </head>
+    <head>
+        <section class="contact">
+            <div class="content">
+                <h2>Contact Us</h2>
+                <p>Hey</p>
+            </div>
+            <div class="container">
+                <div class="contactInfo">
+                    <div class="box">
+                        <div class="icon"><i class="fa fa-map-marker icon">
+                        </i></div>
+                        <div class="text">
+                            <h3>Address</h3>
+                            <p>456 baham ouest, <br>yaounde,Cameroun, <br>546729</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon"><i class="fa fa-phone icon">
+                        </i></div>
+                        <div class="text">
+                            <h3>Phone</h3>
+                            <p>690319685</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon"><i class="fa fa-envelope icon">
+                        </i></div>
+                        <div class="text">
+                            <h3>Email</h3>
+                            <p>davlamarque@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contactForm">
+                    <form action="">
+                        <h2>Send message</h2>
+                        <div class="inputBox">
+                            <input type="text" name="" required>
+                            <span>Full Name</span>
+                        </div>
+                        <div class="inputBox">
+                            <input type="email" name="" required>
+                            <span>Email</span>
+                        </div>
+                        <div class="inputBox">
+                            <textarea></textarea>
+                            <span>Type your Message...</span>
+                        </div>
+                        <div class="inputBox">
+                            <input type="submit" name="Send" value="Send " required>
+                           
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </head>
+</html>
